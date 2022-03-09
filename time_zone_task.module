@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function time_zone_task_theme()
+{
+  return [
+    'time_zone_task' => [
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}

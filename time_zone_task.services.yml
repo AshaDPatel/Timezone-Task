@@ -1,0 +1,4 @@
+services:
+  time_zone_task.time_zone_task:
+    class: Drupal\time_zone_task\TimezoneTaskService
+    arguments: ['@config.factory']

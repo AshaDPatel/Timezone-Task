@@ -1,0 +1,7 @@
+time_zone_task.settings:
+  path: '/admin/config/config_form'
+  defaults:
+    _form: '\Drupal\time_zone_task\Form\AdminConfigForm'
+    _title: 'Time Zone Location Selector'
+  requirements:
+    _permission: 'administer site configuration'

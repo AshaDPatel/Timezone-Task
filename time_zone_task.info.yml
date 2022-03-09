@@ -1,0 +1,5 @@
+name: Time Zone Task
+description: Implementing custom form for time zone selector.
+core_version_requirement: ^8.8 || ^9
+type: module
+package: Time Zone
